@@ -1,11 +1,17 @@
 
 body {
     background-color: #EAE7DC;
-}
-ul {
     font-family: "interstate-mono", monospace;
     font-weight: 700;
     font-style: normal; 
+    text-align: center;
+}
+
+h1 {
+  color:#E85A4F;
+}
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -25,6 +31,36 @@ ul {
   
   li a:hover {
     background-color: #EB6F66;
+  }
+
+  .spacer{
+    height: 50px;
+  }
+
+  .firstpara{
+    color:#E85A4F;
+    font-size: small;
+  }
+
+  hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+  }
+
+  h2{
+    color:#E85A4F;
+    font-size: medium;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-family: "interstate-mono", monospace;
+    font-weight: 700;
+    font-style: normal; 
+    background-color:#E85A4F;
+    color: white;
+    border: none;
   }
 
 
