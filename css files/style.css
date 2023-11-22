@@ -5,11 +5,17 @@ body {
     font-weight: 700;
     font-style: normal; 
     text-align: center;
+
 }
 
 h1 {
   color:#E85A4F;
 }
+
+h3{
+  color:#E85A4F;
+}
+
 
 ul {
     list-style-type: none;
@@ -64,7 +70,7 @@ ul {
   }
 
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
     ul 
     {
       flex-direction: column;
@@ -78,6 +84,17 @@ ul {
     {
       padding: 10px;
     }
+
+    .container{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      
+  
+  
+    }
+
+
   }
   
 
@@ -88,4 +105,29 @@ ul {
 
   label{
     display: inline-block;
+  }
+
+  /* services page */
+
+  .container{
+    display: flex;
+    justify-content: center;
+
+
+  }
+  .flex-item{
+    padding: 10px;
+    flex: 1 1 33%;
+    border: 1px solid #D8C3A5;
+  }
+
+
+
+
+  .flex-img img {
+    max-width: 150px;
+  }
+
+  .small {
+    font-size: 14px;
   }
