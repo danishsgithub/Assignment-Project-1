@@ -15,6 +15,9 @@ h1 {
 h3{
   color:#E85A4F;
 }
+h4 {
+  color: #ff0e0e;
+}
 
 
 ul {
@@ -109,6 +112,9 @@ ul {
 
   /* services page */
 
+  #cart-count {
+    font-size: 20px;
+  }
   .container{
     display: flex;
     justify-content: center;
@@ -131,3 +137,28 @@ ul {
   .small {
     font-size: 14px;
   }
+
+
+  /* shop page */
+
+  .shop-container{
+    display: flex;
+    justify-content: center;
+
+
+  }
+  .shop-flex-item{
+    padding: 25px;
+    flex: 1 1 33%;
+    background-color: white;
+    border: 25px solid #EAE7DC;
+  }
+
+
+
+
+  .shop-flex-img img {
+    width: 200px;
+    height: 200px;
+  }
+
