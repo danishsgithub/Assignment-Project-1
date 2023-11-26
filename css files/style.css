@@ -84,6 +84,43 @@ ul {
     border: none;
   }
 
+  .flex-item-contactus{
+    padding: 20px;
+    flex: 1 1 33%;
+  }
+
+  form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc; /* Adding border around the form */
+    border-radius: 5px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .submit-button {
+    background-color: #E85A4F;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+
 
   @media only screen and (max-width: 800px) {
     ul 
