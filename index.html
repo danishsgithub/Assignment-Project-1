@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css files/normalize.css">
     <link rel="stylesheet" href="css files/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/qbm4cpw.css">
+    <script src="javascript files/script.js" defer></script>
     <title>Home Page</title>
 </head>
 <body>
@@ -116,12 +117,14 @@
     </div>
     <div class="flex-item-contactus">
       <div class="flex-info">
+        <h4>Directions</h4>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.929727863188!2d103.7836817!3d1.336791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da11bf0eefbedb%3A0xd9f83cdae7efb9f5!2sSultans%20Link%40896!5e0!3m2!1sen!2ssg!4v1701006140458!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
     <div class="flex-item-contactus">
       <div class="flex-info">
-        <form>
+        <h4>Any Questions?</h4>
+        <form onsubmit="showMessage('Question Submitted! Thank You!')">
           <label for="name">Name</label>
           <input type="text" id="name" name="name" placeholder="Enter your name" class="input-field">
       
