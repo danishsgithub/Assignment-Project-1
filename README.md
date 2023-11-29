@@ -12,7 +12,7 @@ Present King of Clippers Barber Shop in the best light and appeal to potential c
 ## Features ##
 
 - Feature 1 - Navigation Bar
----Users will get to choose which section they want to go to. (home, book, services, shop). 
+---Users will get to choose which section they want to go to. (home, book, services, shop).-- 
 ---When a user hovers over a section, the ---section background changes to a lighter shade.
 - Feature 2 - Homepage
 --- Will showcase and explain what my fictional company does. Provide information on the company (contact no, location)
