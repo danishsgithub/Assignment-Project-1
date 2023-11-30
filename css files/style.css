@@ -397,7 +397,7 @@ ul {
 
   .firstpara{
     color:#E85A4F;
-    font-size: small;
+    font-size: 16px;
   }
 
   hr {
@@ -455,6 +455,10 @@ ul {
     border-radius: 4px;
     box-sizing: border-box;
   }
+
+  .underlined-header {
+    text-decoration: underline;
+  }
   
   .submit-button {
     background-color: #E85A4F;
@@ -494,6 +498,30 @@ ul {
       
   
   
+    }
+
+    #header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .category-button {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+    .shop-container{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
     }
 
 
@@ -541,6 +569,38 @@ ul {
 
   /* shop page */
 
+  .category-button{
+    display: flex;
+    align-items: center;
+    padding: 7px 7px;
+    font-family: "interstate-mono", monospace;
+    font-weight: 700;
+    font-size: 13px;
+    font-style: normal; 
+    background-color:#E85A4F;
+    color: white;
+    border: none;
+
+  }
+
+  #header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  #cart {
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+
+  #cart img {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Adjust the size as needed */
+    vertical-align: middle;
+    margin-left: 10px; /* Adjust the spacing as needed */
+  }
+
+
   .shop-container{
     display: flex;
     justify-content: center;
@@ -552,6 +612,9 @@ ul {
     flex: 1 1 33%;
     background-color: white;
     border: 25px solid #EAE7DC;
+    position: relative;
+    overflow: hidden;
+
   }
 
 
@@ -560,5 +623,21 @@ ul {
   .shop-flex-img img {
     width: 200px;
     height: 200px;
+    transition: transform 0.3s ease;
+  }
+
+  .shop-flex-item:hover img {
+    transform: scale(1.2);
+  }
+
+  .add-to-cart-btn {
+    padding: 10px 20px;
+    font-family: "interstate-mono", monospace;
+    font-weight: 700;
+    font-style: normal; 
+    background-color:#E85A4F;
+    color: white;
+    border: none;
+
   }
 
