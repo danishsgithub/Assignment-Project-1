@@ -39,13 +39,20 @@ User Stories:
 #### Feature 6 - Booking Page
 - Users will get to input Name, set Date and Time of appointment and also choose the service type that they want to get.
 - A ‘book’ button will be at the bottom, to allow user to ‘book’ an appointment.
-#### Feature 7 - Javascript Feature
-- When users press the button after submitting a question, a pop up message will show up stating that their question has been sent.
-- When users press the button after completing a booking, a pop up message will show up showing that booking has been confirmed.
-#### Feature 8 - Responsive Web Design
+#### Feature 7 - Responsive Web Design
 - Navbar will adjust to a list when the screen is less than 800px, making it easier for users to go to other sections.
 - For the services and review section, when the screen is smaller, the content will adjust from side by side to top down.
-- For the contact use section, the content will also adjust to top down from side by side, when the screen is smaller.
+- For the contact-us section, the content will also adjust to top down from side by side, when the screen is smaller.
+- For the shop page, the shop items will also adjust to top down, from 3 items side by side, when the screen is smaller. Furthermore, the category buttons and shopping cart will move to the center and adjust to top down when the screen is smaller.
+
+### Javascript Features
+1. When users press the button after submitting a question, a pop up message will show up stating that their question has been sent.
+2. When users press the button after completing a booking, a pop up message will show up showing that booking has been confirmed.
+3. When users hover over a shop item, the item image will enlarge slightly.
+4. When a user presses one of the category buttons, it will scroll down to the selected category.
+5. After pressing the "add to cart" button, the button will change colour to green and will say "Added!"
+6. The shopping cart will show the number of items in the cart, this is after the user presses the "add to cart" button, adding more items to the cart
+7. 
 
 
 
@@ -72,6 +79,7 @@ User Stories:
 - The icons used in this site from the services section were obtained from [flaticon.com](https://www.flaticon.com/search?type=icon&word=barber)
 - The images from the reviews section were obtained from [pexels.com](https://www.pexels.com/search/barber/)
 - The images from the shop section for the "hair essentials" were obtained from [byrdhair.com](https://byrdhair.com/) and images in the "beard essentials" were obtained from [thepanicroom.sg](https://thepanicroom.com.sg/).
+- The shopping cart icon were obtained from [flaticon.com](https://www.flaticon.com/search?type=icon&search-group=all&word=shopping+cart&license=&color=&shape=&current_section=&author_id=&pack_id=&family_id=&style_id=&type=icon)
 
 ### Acknowledgements
 
