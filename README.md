@@ -96,6 +96,7 @@ User Stories:
     - Book button leads to booking page.
 
 4. Shop Page
+    - Content is responsive to smaller devices.
     - When user presses "add to cart" button, the button changes colour to green and says "Added!" and the number of items in shopping cart increases.
     - When user presses a "Jump to category" button it scrolls down to the selected category.
     - When a user hovers any of the shop items, the image enlarges.
