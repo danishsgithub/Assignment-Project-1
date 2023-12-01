@@ -431,6 +431,7 @@ ul {
     background-color:#E85A4F;
     color: white;
     border: none;
+    text-decoration: none;
   }
 
   .flex-item-contactus{
@@ -467,7 +468,7 @@ ul {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    float: center;
+    
   }
   
   .submit-button:hover {
